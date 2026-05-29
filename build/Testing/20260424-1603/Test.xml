@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260424-1603-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="CHANG-X1"
+	OSRelease="6.6.87.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="7818"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2304.01"
+	>
+	<Testing>
+		<StartDateTime>Apr 25 00:06 +08</StartDateTime>
+		<StartTestTime>1777046799</StartTestTime>
+		<TestList>
+			<Test>./TicketSystemTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>TicketSystemTests</Name>
+			<Path>.</Path>
+			<FullName>./TicketSystemTests</FullName>
+			<FullCommandLine>/home/chang/cpp/TicketSystem/build/test_ticket_system</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>8.02116</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/chang/cpp/TicketSystem/build/test_ticket_system</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzNk8FtwzAMRe+eghMYSdBJGt8NRaJqobZkkFRSD9AtOl0nKW03aFz71IPRG4Gv//nwCVXBvqLAeWDBDmyKLJStJAJr2hZdcUYjcABCRrqig8sAWUc4Fp8f7yDIUl8MB1vPL4yEFKE3zOqtFuEOf2dXf1/+rXBqHUhaIWmWD9TVnK1F5h2AntHn6CAwZ/xBOq2RbpTiSz2pu9WEb30gFbx6lsrK80A8uXY+6AbpdrMbxzZekGbqYQfix/02E2GUf/cJ7lz3iq687AfKsiyqBsd0geRBdJZpztJngZth1bo0LuYQLUIQPZJFdDw/btTajATqPh5OT8qnAWXxBX5Nmgk=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 25 00:06 +08</EndDateTime>
+		<EndTestTime>1777046807</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

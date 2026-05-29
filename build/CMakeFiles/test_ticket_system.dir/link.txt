@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/test_ticket_system.dir/tests/test_ticket_system.cpp.o -o test_ticket_system  libticket_system.a 

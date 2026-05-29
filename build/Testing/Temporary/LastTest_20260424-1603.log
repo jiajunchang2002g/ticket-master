@@ -1,0 +1,81 @@
+Start testing: Apr 25 00:06 +08
+----------------------------------------------------------
+1/1 Testing: TicketSystemTests
+1/1 Test: TicketSystemTests
+Command: "/home/chang/cpp/TicketSystem/build/test_ticket_system"
+Directory: /home/chang/cpp/TicketSystem/build
+"TicketSystemTests" start time: Apr 25 00:06 +08
+Output:
+----------------------------------------------------------
+Ticket System constructor called
+Seat 0 reserved by user 1
+✅ test_basic_reservation passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+Seat 0 sold to user 1
+✅ test_confirm_success passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+Refund issued to user 2
+✅ test_confirm_wrong_user passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+Seat 0 expired for user 1
+Seat 0 reserved by user 2
+✅ test_expiration passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+Seat 0 expired for user 1
+Refund issued to user 1
+✅ test_confirm_after_expiry passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+✅ test_concurrent_reservation passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 1
+Seat 0 sold to user 1
+✅ test_concurrent_confirm_vs_expiry passed (result=1)
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 0
+Seat 1 reserved by user 1
+Seat 2 reserved by user 2
+Seat 3 reserved by user 3
+Seat 4 reserved by user 4
+Seat 0 sold to user 0
+Seat 1 sold to user 1
+Seat 2 sold to user 2
+Seat 3 sold to user 3
+Seat 4 sold to user 4
+✅ test_multiple_seats passed
+Ticket System destructor called
+Ticket System constructor called
+Seat 0 reserved by user 0
+Seat 1 reserved by user 1
+Seat 2 reserved by user 2
+Seat 3 reserved by user 3
+Seat 4 reserved by user 4
+Seat 5 reserved by user 5
+Seat 6 reserved by user 6
+Seat 7 reserved by user 7
+Seat 8 reserved by user 8
+Seat 9 reserved by user 9
+✅ test_stress_small passed
+Ticket System destructor called
+
+🎉 ALL TESTS PASSED
+<end of output>
+Test time =   8.02 sec
+----------------------------------------------------------
+Test Passed.
+"TicketSystemTests" end time: Apr 25 00:06 +08
+"TicketSystemTests" time elapsed: 00:00:08
+----------------------------------------------------------
+
+End testing: Apr 25 00:06 +08

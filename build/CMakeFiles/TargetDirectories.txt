@@ -1,0 +1,6 @@
+/home/chang/cpp/TicketSystem/build/CMakeFiles/ticket_system.dir
+/home/chang/cpp/TicketSystem/build/CMakeFiles/demo.dir
+/home/chang/cpp/TicketSystem/build/CMakeFiles/test_ticket_system.dir
+/home/chang/cpp/TicketSystem/build/CMakeFiles/test.dir
+/home/chang/cpp/TicketSystem/build/CMakeFiles/edit_cache.dir
+/home/chang/cpp/TicketSystem/build/CMakeFiles/rebuild_cache.dir

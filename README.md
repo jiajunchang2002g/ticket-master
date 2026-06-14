@@ -1,4 +1,4 @@
-# Ticket Master
+# TicketMaster
 
 A simple C++17 ticket reservation system that demonstrates concurrent seat holds, confirmation, and expiration handling.
 
